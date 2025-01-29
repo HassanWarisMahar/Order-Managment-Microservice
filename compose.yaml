@@ -10,8 +10,8 @@ services:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_USER: Shashwat
-      MYSQL_PASSWORD: shashwat2001
+      MYSQL_USER: sa
+      MYSQL_PASSWORD: password
       MYSQL_DATABASE: product_microservice_db
     expose:
       - "3306"
@@ -28,8 +28,8 @@ services:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_USER: Shashwat
-      MYSQL_PASSWORD: shashwat2001
+      MYSQL_USER: sa
+      MYSQL_PASSWORD: password
       MYSQL_DATABASE: order_microservice_db
     expose:
       - "3306"
@@ -46,8 +46,8 @@ services:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_USER: Shashwat
-      MYSQL_PASSWORD: shashwat2001
+      MYSQL_USER: sa
+      MYSQL_PASSWORD: password
       MYSQL_DATABASE: inventory_microservice_db
     expose:
       - "3306"
