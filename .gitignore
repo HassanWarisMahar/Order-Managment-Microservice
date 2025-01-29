@@ -1,0 +1,56 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Eclipse project files (if applicable)
+.project
+.classpath
+.settings/
+
+# Temporary files
+*.swp
+*~
+
+# Java compiled class files
+*.class
+
+# Spring Boot specific
+*.jar
+*.war
+*.ear
+
+# Java output
+*.class
+*.log
+*.out
+
+# Spring Boot specific - do not track application.properties or application.yml for sensitive information
+application.properties
+application.yml
+
+# Other files
+*.db
+*.sqlite
+*.lock
+*.sublime-workspace
+*.sublime-project
