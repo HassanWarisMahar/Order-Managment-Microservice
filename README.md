@@ -90,6 +90,7 @@ spring.h2.console.enabled=true
 - **PUT /api/v1/inventory**: Updates the inventory quantities for products. The request body should contain a list of `InventoryRequest` objects with product IDs and new quantities.
 
 - **POST /api/v1/inventory**: Adds products to the inventory. The request body should include a list of `InventoryRequest` objects with product IDs and quantities to add.
+```
 
 ### Example Request Bodies
 
