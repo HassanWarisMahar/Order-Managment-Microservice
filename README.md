@@ -99,9 +99,9 @@ spring.h2.console.enabled=true
 
 ```json
 {
-    "productName": "Samsung Galaxy S24 Ultra",
-    "productDescription": "Embrace the Galaxy A.I.",
-    "price": 168000,
+    "productName": "Samsung Galaxy S25 Ultra",
+    "productDescription": "Galaxy A.I.",
+    "price": 550000,
     "quantity": 100
 }
 
@@ -155,15 +155,15 @@ curl --location 'http://localhost:8080/orders' \
     "deliveryAddress": "Systems Limited F-5/1",
     "orderItemRequests": [
         {
-            "productId": "24236585-a3d8-4084-94b1-b73492568fc6",
+            "productId": "get producti id from inventory",
             "quantity": 140
         },
         {
-            "productId": "04ceaf94-b017-4dd7-9f03-81f459b0f8b3",
+            "productId": "get producti id from inventory",
             "quantity": 35
         },
         {
-            "productId": "da709b0e-8de4-48fa-9fbb-2dd9b087f96d",
+            "productId": "get producti id from inventory",
             "quantity": 30
         }
     ]
